@@ -1,0 +1,88 @@
+<!doctype html>
+<meta charset="utf-8">
+
+<script src="d3.js"></script>
+<script src="https://d3plus.org/js/d3plus.js"></script>
+
+<div id="viz"></div>
+
+<script>
+
+/*  var data = [
+  //  {"Language": "English", "name":"en", "value": 3010},
+    {"Language": "Spanish", "name":"es", "value": 98},
+    {"Language": "Undetermined", "und":"gamma", "value": 46},
+    {"Language": "Italian", "name":"it", "value": 18},
+    {"Language": "Portugese", "name":"pt", "value": 14},
+    {"Language": "German", "name":"de", "value": 10},
+    {"Language": "Indoenesian", "name":"in", "value": 5},
+    {"Language": "Turkish", "name":"tr", "value": 4},
+
+  ]*/
+  var data = "Lang_data.json";
+
+
+  var visualization = d3plus.viz()
+    .container("#viz")
+    .data(data)
+    .type("bar")
+    .id("Language")
+    .x("Language")
+    .y("counts")
+    .draw()
+
+    var data1 ="Sentiment_Percentage.json";
+
+   var visualization = d3plus.viz()
+     .container("#viz")
+     .data(data1)
+     .type("pie")
+     .id("Type")
+     .size("Percentage")
+     .draw()
+
+     var data2 ="Percentage_links.json";
+
+    var visualization = d3plus.viz()
+      .container("#viz")
+      .data(data2)
+      .type("pie")
+      .id("Type")
+      .size("Percentage")
+      .draw()
+
+      var data3 ="Retweetspossibility.json";
+
+     var visualization = d3plus.viz()
+       .container("#viz")
+       .data(data3)
+       .type("pie")
+       .id("Type")
+       .size("Percentage")
+       .draw()
+
+       var data4 ="famous.json";
+
+      var visualization = d3plus.viz()
+        .container("#viz")
+        .data(data4)
+        .type("pie")
+        .id("Type")
+        .size("Percentage")
+        .draw()
+
+        var data5 ="hashtags.json";
+
+       var visualization = d3plus.viz()
+         .container("#viz")
+         .data(data5)
+         .type("pie")
+         .id("Type")
+         .size("Percentage")
+         .draw()
+  
+
+
+
+
+</script>

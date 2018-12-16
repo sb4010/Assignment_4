@@ -1,0 +1,32 @@
+#menu {
+	width: 100%;
+	z-index: 999;
+	text-align: center;
+	background: #e98349;
+}
+
+
+#menu a {
+	padding-left:  15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 140%;
+	text-align: center;
+	color: #fff;
+}
+
+#menu a:hover {
+	cursor: pointer;
+	background: rgba(255,255,255,0.3);
+}
+
+.menu-container {
+	padding-top: 13px;
+	padding-bottom: 14px;
+}

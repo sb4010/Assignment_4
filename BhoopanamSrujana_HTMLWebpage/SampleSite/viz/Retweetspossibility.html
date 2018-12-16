@@ -1,0 +1,25 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<script src="../d3.js"></script>
+<script src="https://d3plus.org/js/d3plus.js"></script>
+</head>
+<body>
+		<div id="viz"></div>
+
+<script>
+
+
+var data3 ="Retweetspossibility.json";
+
+var visualization = d3plus.viz()
+ .container("#viz")
+ .data(data3)
+ .type("pie")
+ .id("Type")
+ .size("Percentage")
+ .draw()
+
+</script>
+</body>
+</html>

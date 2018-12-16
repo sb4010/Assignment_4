@@ -1,0 +1,28 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<script src="../d3.js"></script>
+<script src="https://d3plus.org/js/d3plus.js"></script>
+</head>
+<body>
+		<div id="viz"></div>
+
+
+<script>
+
+
+var data5 ="hashtags.json";
+
+var visualization = d3plus.viz()
+ .container("#viz")
+ .data(data5)
+ .type("pie")
+ .id("Type")
+ .size("Percentage")
+ .legend({"size": 2})
+ .font({ "family": "Times", "size": "2" })
+ .draw()
+
+</script>
+</body>
+</html>

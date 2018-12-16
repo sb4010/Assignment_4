@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://senseable.mit.edu/roadahead/ -->
+<html class="Sruana's Blog Post"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Tweets help to testify FB Breach! | Urban Informatics Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+
+		<!-- jquery -->
+		<script type="text/javascript" src="./index_files/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="./index_files/menu.js"></script>
+
+        <script type="text/javascript" src="./index_files/lightbox.min.js"></script>
+
+
+
+		<script type="text/javascript" src="./index_files/jquery.easing.1.3.js"></script>
+
+		<!-- link scroller -->
+		<script type="text/javascript" src="./index_files/jquery.scrollTo-1.4.3.1-min.js"></script>
+		<script src="./index_files/jquery.localscroll-1.2.7-min.js"></script>
+        <!-- better scroller -->
+		<script type="text/javascript" src="./index_files/smoothscroll.js"></script>
+        <!-- bootstrap js -->
+		<script type="text/javascript" src="./index_files/bootstrap.min.js"></script>
+
+		<!-- bootstrap magic -->
+		<link rel="stylesheet" type="text/css" href="./index_files/bootstrap.min.css">
+		<!-- theme custom -->
+		<link rel="stylesheet" href="./index_files/styles.css">
+		<link rel="stylesheet" href="./index_files/menu.css">
+        <link rel="stylesheet" href="./index_files/lightbox.css">
+
+		<!--Google Fonts-->
+		<link href="./index_files/css" rel="stylesheet" type="text/css">
+
+	<style type="text/css">/**
+ * Style sheet used by new LibX tooltip code
+ */
+
+/* We insert a <div> with libx-tooltip style under the body.
+ * This will inherit body's style - we can't afford to inherit undesirable
+ * styles and we must redefine what we need.  OTOH, some things, e.g.
+ * font-size, might be ok to be inherited to stay within the page's tone.
+ */
+.libx-tooltip {
+    display: none;
+    overflow: visible;
+    padding: 5px;
+    z-index: 100;
+    background-color: #eee;
+    color: #000;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    border: 2px solid #666;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.libx-tooltip p {
+    /* override default 1em margin to keep paragraphs inside a tooltip closer together. */
+    margin: .2em;
+}
+</style><style type="text/css">/**
+ * Style sheet used by LibX autolinking code
+ */
+.libx-autolink {
+}
+
+</style></head>
+	<body data-gr-c-s-loaded="true" style="">
+
+
+
+<!--/////////////////-->
+<!-- HEADER SECTION -->
+<!--/////////////////-->
+
+
+
+
+<div class="header-wrap" id="top">
+	<div class="container head-container">
+		<div class="row">
+			<div class="col-md-offset-3 col-md-6 text-center col-lg-offset-0 col-lg-12">
+				<div class="logo"><img src="index_files/front.jpeg" width="800" class="img-circle"></div>
+			</div>
+		</div>
+		<div class="row title">
+		  <div class="col-md-offset-3 col-md-6 text-center col-lg-offset-2 col-lg-9">
+		    <h1><br>
+		      An analysis of tweets to understand public's opinion on after the breach in </h1>
+		    <p>&nbsp;</p>
+		    <h2>An Urban Informatics Project <br>
+		      16 November 2018</h2>
+		    <h3>(This webpage has used d3, d3 plus examples, css and assignment 2 submission of my project)
+				<p>This webpage is for educational purpose and has used <a href="http://senseable.mit.edu/roadahead/"> http://senseable.mit.edu/roadahead/ webpage as a reference</a></h3>
+		    <p>&nbsp;</p>
+		    <p>&nbsp;&nbsp;</p>
+		    <h2><br>
+	        <a href="https://medium.com/@sb4010/tweets-help-to-testify-fb-breach-fb9f8d4453d4">Blog post on the same</a></h2>
+		    </h3></div>
+		</div>
+
+
+
+    </div>
+</div>
+
+
+ <div id="menu" style="position: fixed; top: 0px;">
+	<div class="container">
+		<div class="row">
+				<div class="col-md-12 menu-container"><a id="conference" onClick="scrollTo('conference')" style="border-bottom: none;">STORY</a> <a id="programme" onClick="scrollTo('programme')" style="border-bottom: none;">LITERATURE</a> <a id="speakers" onClick="scrollTo('speakers')" style="border-bottom: none;">METHODOLOGY</a> <a id="registration" onClick="scrollTo('registration')" style="border-bottom: none;">RESULTS</a>&nbsp;<a id="contact" onClick="scrollTo('contact')" style="border-bottom: none;">AbouT ME</a></div>
+		</div>
+	</div>
+</div>
+
+
+<!--/////////////////-->
+<!-- STO -->
+<!--/////////////////-->
+
+<div class="theme-wrap" id="conference-section">
+	<div class="container theme-container">
+		<div class="row">
+			<div class="col-md-12 heading">
+			  <h2>STORY<br>
+		      </h2>
+			  <p><br>
+		      </p>
+			  <p>About a year ago, Facebook was involved in the data breach to Cambridge Analytica, a political research firm that did the analysis for pollical campaigning for elections in 2016. There is also a recent news of the attack on the personal network of Facebook that leaked data of 50 million users online. The consequences of these were horrendous for the popularity of Facebook. Facebook’s stock price dropped $17 following the news last year. Among the public, it raised concerns about the privacy of their data. For the first time in history, there was a decline in the number of users in both Canada and US last year. This year, Mark Zuckerberg CEO of Facebook, had to testify before Senate Committee of United States to give clarification on data security.</p>
+			  <p><img src="index_files/17sp_no_fb_ban.jpg" width="500" height="300" alt="modes"></p>
+			  <p> Source : http://www.looppng.com/tech/basil-dispels-rumors-fb-shut-down-76640</p>
+			  <p>I conducted the following analysis to study to what extent Facebook popularity was hit, in different communities.</p>
+			  <br>
+
+</div>
+		</div>
+		<div class="row"></div>
+	</div>
+</div>
+
+<!--/////////////////-->
+<!-- PROGRAMME SECTION -->
+<!--/////////////////-->
+
+<div class="programme-wrap" id="programme-section">
+	<div class="container programme-container">
+		<div class="row">
+		  <div class="col-md-12 heading">
+		    <h2>LITERATURE</h2>
+		    <p>Facebook is being accused of ex-filtering the most sensitive information of millions of public in the last two years. The stolen data included religion, gender, relationship status, birthdate, location and recent search history of about 14 million users while 15 million users name and contact information were at stake. The total number of people who lost their information adds up to the population of New York, Chicago and Los Angeles. This may lead to loss of Social Security or credit card credentials. </p>
+		    <p>This has definitely given a start to more identity misuse crimes. Some individuals can get tricked by hackers and could become targets for revealing their financial information. And if the hacker is someone who knows an individual then it becomes much easier for him or her to get fooled. There is a high chance in believing someone who validates their authenticity especially with the knowledge of personal ones. I guess most of us assume this rule, ‘what is being chatted in FB messenger, stays in FB messenger.’ When did we ever think that this could be stolen and may get distributed to our professors, employers or even our dear family members. </p>
+		    <p>Source :&nbsp;https://www.consumerreports.org/digital-security/what-makes-the-facebook-data-breach-so-harmful/ </p>
+		    <p>&nbsp;		  </p>
+		  </div>
+		</div></div></div>
+
+<!--/////////////////-->
+<!-- SPEAKERS SECTION -->
+<!--/////////////////-->
+
+
+
+<div class="speakers-wrap" id="speakers-section">
+	<div class="container speakers-container">
+		<div class="row">
+		  <div class="col-md-12 heading">
+		    <h2>METHODOLOGY</h2>
+			  <p>After getting an approval to be twitter developer, I got access to API keys and tokens. I tried to retrieve tweets that had the following keywords:</p>
+			  <p> a. ‘Facebook Data Breach’ </p>
+			  <p>b. ‘Facebook Privacy’ </p>
+			  <p>c. ‘Facebook Data leaks’ </p>
+			  <p>d. ‘Facebook Security’ </p>
+			  <p>e. ‘Cambridge Analytica’</p>
+			  <p> I have assumed that all the tweets should be related to the topic that I was concerned with although it may not be the case for every tweet I collected.</p>
+			</div>
+		</div>
+
+<!--Bubbles for future speakers-->
+
+        <div class="row">
+		  <div class="col-md-3 service">
+				<img src="index_files/language.JPG" class="img-responsive img-center" alt="Nichole Freedman">
+			<h3>Language</h3>
+				<p>Languages in which the tweets are made<br>
+		    </p>
+		  </div>
+		  <div class="col-md-3 service"> <img src="index_files/sentiment.JPG" class="img-responsive img-center" alt="Nichole Freedman">
+		    <h3>Tweet Sentiment</h3>
+		    <p>Analysing ‘Tweets’ Sentiments<br>
+	        </p>
+		  </div>
+		  <div class="col-md-3 service"> <img src="index_files/repost.JPG" class="img-responsive img-center" alt="Nichole Freedman">
+		    <h3>Re-Tweets Count</h3>
+		    <p>How many re-tweeted a previous tweets</p>
+		  </div>
+		  <div class="col-md-3 service"> <img src="index_files/link.JPG" class="img-responsive img-center" alt="Nichole Freedman">
+		    <h3>LINKED TWEETS</h3>
+		    <p>How many tweets referred to an expert source- media</p>
+		  </div>
+		  <div class="col-md-3 service"> <img src="index_files/followers.JPG" class="img-responsive img-center" alt="Nichole Freedman">
+		    <h3>FOLLOWERS</h3>
+		    <p>Analysing the number of followers of the people who tweeted about the issue</p>
+		  </div>
+
+          <div class="col-md-3 service">
+				<img src="index_files/hashtags.JPG" alt="Robin Chase" width="200" class="img-responsive img-center">
+			<h3>HASHTAGGED TWEETS</h3>
+				<p>Number of tweets that were hash tagged</p>
+          </div>
+			<div class="col-md-3 service">
+				<img src="index_files/words.JPG" class="img-responsive img-center" alt="Ashwini Chhabra">
+			  <h3>WORDS</h3>
+			  <p>What was the main concern of the public - cambridge analytica, security and privacy.</p>
+			</div>
+			<div class="col-md-3 service">
+				<img src="index_files/nyc_ca.jpg" class="img-responsive img-center" alt="Alison Cohen">
+			  <h3>NYC Vs CA</h3>
+				<p>Comparing tweets in NYC and CA</p>
+			</div>
+
+
+</div>
+
+
+
+
+	  </div>
+
+			</div>
+		</div>
+		<!doctype html>
+		<meta charset="utf-8">
+
+		<script src="d3.js"></script>
+		<script src="https://d3plus.org/js/d3plus.js"></script>
+
+		<div id="viz"></div>
+
+
+
+<!--SPEAKERS END-->
+
+
+
+
+<!--/////////////////-->
+<!-- REGISTRATION SECTION -->
+<!--/////////////////-->
+
+<div class="registration-wrap" id="registration-section">
+		<div class="row">
+		  <div id="gallery" class="col-md-12 heading">
+		    <h2>RESULTS</h2>
+
+			 <div class="col-md-offset-3 col-md-6 text-center col-lg-offset-0 col-lg-12">
+			   <p>'Tweets' and followers</p>
+			   <div>
+	<iframe width="560" height="315" src="viz/famous.html" frameborder="0" scrolling="no" allowfullscreen>
+	</iframe>
+</div>
+<p>I found the average number of followers of the people who were considered for this analysis is 13,561. Then considering this metric, I tried figuring out how many famous users (above this mean number) and how many non-famous users (above this number) were involved. </p>
+<p> I found out that about 6% of users were above this mean value.</p>
+<p> This means that not only users with most followers (famous media outlets, company twitter handles, and famous figures) but also common people with less number of followers are concerned about this issue. </p>
+<p>'Tweets' with hashtags </p>
+<div>
+	<iframe width="560" height="315" src="viz/hashtags.html" frameborder="0" scrolling="no" allowfullscreen>
+	</iframe>
+</div>
+<p> About half the user used hashtags while half did not. Hashtags are generally used by users who tweet frequently. </p>
+<p> As the percentage of people are the same on both side, I think even the non- frequent users have tweeted actively on this matter.</p>
+<p>Languages in which the tweets are made </p>
+<div>
+	<iframe width="560" height="315" src="viz/Lang_data.html" frameborder="0" scrolling="no" allowfullscreen>
+	</iframe>
+</div>
+<p> I found the tweets were in different languages, indicating that this has become a global issue to some extent. There were a total of 14 different languages with 3010 tweets being in the English language. The other four toppers in the list were respectively, Spanish, Italian and Portuguese. </p>
+<p> This definitely meant that the English speaking/knowing individuals were active in tweeting about this issue. Aren’t they the ones who are the majority users of Facebook too?</p>
+<p>'Tweets' with Links </p>
+<div>
+	<iframe width="560" height="315" src="viz/Percentage_links.html" frameborder="0" scrolling="no" allowfullscreen>
+	</iframe>
+</div>
+<p> About 36.15 % of the total tweets were having links while the rest did not. Here, I only considered original tweets and not re-tweets. </p>
+<p> This indicates people are following news bulletins and sharing links around. They are probably concerned about their friends and followers on online community and want them to be aware of multiple articles.</p>
+<p>Re-tweets </p>
+<div>
+	<iframe width="560" height="315" src="viz/Retweetspossibility.html" frameborder="0" scrolling="no" allowfullscreen>
+	</iframe>
+</div>
+<p> About 70.16 % of the tweets were re-tweets. </p>
+<p>That is one big number!
+
+  This means that this has become a viral topic!.</p>
+<p>Tweet Sentiments </p>
+<div>
+	<iframe width="560" height="315" src="viz/Sentiment_Percentage.html" frameborder="0" scrolling="no" allowfullscreen>
+	</iframe>
+</div>
+<p>Using Afinn API, I determined positive, negative and neutral tweets in the collected tweets. Among 3010 total tweets, 438 were positive, 1307 were negative and 1469 were neutral. I also observed that the neutral tweets were mostly coming from journalists and media organizations, by looking at sample tweet texts. </p>
+<p> This indicates it’s a trending topic and many journals or media organizations are tweeting about the matter. Negative tweet count is close to neutral tweet count, indicating that these incidents have marred popularity of Facebook.</p>
+<p>'Tweets' in NYC Vs. 'Tweets' in CA </p>
+<div>
+	<iframe width="560" height="315" src="viz/facebook_map.html" frameborder="0" scrolling="no" allowfullscreen>
+	</iframe>
+</div>
+<p>I wanted to look into what was the impact of this issue in two different states. I decided to look for tweets from California and New York. I chose them as they are major software hubs. First, I saw if the tweets had coordinates, but I was extremely unfortunate!</p>
+<p> Then I looked at the location of the tweet, although a few did have, many did not. Now my only resort was to look at user determined location.</p>
+<p> After filtering, I found 56 tweets from California with 21 negative tweets and 25 neutral tweets and just about 10 positive tweets.
+
+  There was a total of 52 tweets from New York with 23 negative tweets and 19 and just about 10 tweets positive. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>The same map has been done using d3. </p>
+<div>
+	<iframe width="560" height="315" style ="background: #FFFFFF;"  src="states_map.html" frameborder="0" scrolling="no" allowfullscreen>
+	</iframe>
+</div>
+
+				</div>
+	</div>
+</div>
+
+
+<!--/////////////////-->
+<!-- TRAVEL SECTION -->
+<!--/////////////////-->
+
+<div class="travel-wrap" id="travel-section">
+	<div class="container travel-container">
+		<div class="row">
+			<div class="col-md-12 heading">
+			  <h2><strong>SUMMARY</strong></h2>
+			  <p> The consequences of these were horrendous for the popularity of Facebook. Facebook’s stock price dropped $17 following the</p>
+			  <p>Maybe California has a few extratweets as Silicon Valley is residing at the heart of the state. Although, the tweet number is almost the same,with negative sentiment dominating signifines that the people at both the states are almost equally concerned about the issue. These are a few points that I have investigated and derived conclusions upon my intuitions. Thank you for reading this article till here. </p>
+			  <p>The one main issue that I want to point out is that we can explicitly see that people are not willing to keep the GPS on while tweeting about this matter (Indicated by the lack of coordinates in most of the tweets collected). Their data being shared with a third party may have made them more agitated! </p>
+			  <p><br>
+		      </p>
+			  <p>&nbsp;</p>
+			  <p>&nbsp;</p>
+			  <p>&nbsp;</p>
+			</div>
+		</div>
+
+		<div class="row team">
+			<div class="col-md-4 member"></div>
+		</div>
+
+		<div class="row"></div>
+	</div>
+</div>
+
+
+<!--/////////////////-->
+<!-- CONTACT SECTION -->
+<!--/////////////////-->
+
+
+<div class="contact-wrap" id="contact-section">
+<div class="contact-container">
+	  <div class="container">
+		<div class="row">
+			  <div class="col-md-12 heading">
+			    <h2>ABOUT </h2>
+			  </div>
+	    </div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 service">
+		  <p><strong>Author</strong></p>
+		  <p>Srujana Bhoopanam&nbsp; |&nbsp; &nbsp;sb4010</p>
+		  <p>Masters in Urban Planning, GSAPP,</p>
+		  <p>Columbia University, New York </p>
+
+		</div><div class="col-md-4 service">
+		    <p><strong>References</strong></p>
+		    <p>1. https://medium.com/mel-magazine/what-the-facebook-data-breach-means-for-me-just-a-regular-guy-with-a-facebook-page-9951105459f3 </p>
+		    <p>2. https://medium.com/@SwarmAgency/is-facebooks-data-breach-the-downfall-of-facebook-d2f584fce108 </p>
+		    <p>3. https://developer.twitter.com/en/apply-for-access.html<br>
+
+	        </p>
+					<p>4. https://d3plus.org/examples/d3plus-geomap/getting-started/<br></p>
+					<p>5. https://bl.ocks.org/JulienAssouline/1ae3480c5277e2eecd34b71515783d6f<br></p>
+					<p>6. https://d3plus.org/examples/basic/33fc382f1f1913682ec1/<br></p>
+		  </div><div class="col-md-4 service">
+		      <p><strong>CONTACT</strong></p>
+	        <p><a href="mailto:senseable-conference@mit.edu">E-mail ID: sb4010@columbia.edu</a></p>
+		      <p>Ph. No :&nbsp; 857-361-6558 </p>
+		      <p><a class="icon" href="https://twitter.com/sruj1105?lang=en"><img src="./index_files/twiiter.png" alt=""></a> &nbsp; <a class="icon" href="https://www.facebook.com/srujana.bn.7"><img src="./index_files/facebook.png" alt=""></a> &nbsp; <a class="icon" href="https://www.linkedin.com/in/srujana-bhoopanam-0a600b86/"> <img src="./index_files/linkedin.png" alt=""></a></p>
+			</div>
+        </div>
+        </div>
+        <p>
+
+            </p><div class="row">
+			<div class="up">
+				 <br><center><a href="http://senseable.mit.edu/roadahead/#top" class="smoothScroll"><img src="./index_files/top.png" alt="Go to top" height="18"></a></center>
+			  </div>
+			  <div class="col-md-12 text-center copyright">
+			    <p>&nbsp;</p>
+			    <p><a onclick="$(&#39;#credits&#39;).toggle()">Site Credits</a><br></p>
+			    <p id="credits" style="display:none;">Transportation icons from the main page were designed by Olivier Guin, Toby Fitch, Dmitriy Lagunov, Edward Boatman from the thenounproject.com, respectively.</p>
+		      </div>
+		</div>
+	</div>
+  </div>
+
+</div>
+
+
+
+
+
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="http://senseable.mit.edu/roadahead/"><div class="lb-nav"><a class="lb-prev" href="http://senseable.mit.edu/roadahead/"></a><a class="lb-next" href="http://senseable.mit.edu/roadahead/"></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div><script type="text/javascript" async="" src="./index_files/1e6ab715a3a95d4603.js"></script><div class="basketapp-quicksavebutton" style="background:rgba(0,0,0,0.3) url(chrome-extension://eblfjognkmbgmhfnkekoibgmohnhcbel/images/sprites/basketapp_saver.png)"></div></body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
